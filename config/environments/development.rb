@@ -62,8 +62,4 @@ Rails.application.configure do
   
   # Cloud9 への接続を許可する
   config.hosts.clear
-  
-  # Force all access to the app over SSL, use Strict-Transport-Security,
-  # and use secure cookies.
-  config.force_ssl = true
 end
